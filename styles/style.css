@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.svetafor {
+    background: #fff;
+    box-shadow: 2px 2px 4px peru;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 20px;
+}
+
+.svetafor-2 {
+    background: #fff;
+    box-shadow: 2px 2px 4px peru;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 20px;
+}
+
+.wrapper {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 180px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square__1 {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border: 1px solid black;
+}
+
+.square__2 {
+    width: 50px;
+    height: 50px;
+    background: purple;
+    border: 1px solid black;
+}
+
+.square__3 {
+    width: 50px;
+    height: 50px;
+    background: darkred;
+    border: 1px solid black;
+}
+
+.square__4 {
+    width: 50px;
+    height: 50px;
+    background: violet;
+    border: 1px solid black;
+}
+
+.square__5 {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square__6 {
+    width: 50px;
+    height: 50px;
+    background: wheat;
+    border: 1px solid black;
+}
+
+.square__7 {
+    width: 50px;
+    height: 50px;
+    background: navy;
+    border: 1px solid black;
+}
+
+.square__8 {
+    width: 50px;
+    height: 50px;
+    background: gold;
+    border: 1px solid black;
+}
+
+.square__9 {
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+    border: 1px solid black;
+}
+
+.square__10 {
+    width: 50px;
+    height: 50px;
+    background: black;
+    border: 1px solid black;
+}
+
+.square__11 {
+    width: 50px;
+    height: 50px;
+    background: darkcyan;
+    border: 1px solid black;
+}
+
+.square__12 {
+    width: 50px;
+    height: 50px;
+    background: salmon;
+    border: 1px solid black;
+}
+
+.square__13 {
+    width: 50px;
+    height: 50px;
+    background: mediumvioletred;
+    border: 1px solid black;
+}
+
+.square__14 {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__item-1,
+.wrapper__item-2,
+.wrapper__item-3,
+.wrapper__item-4,
+.wrapper__item-5,
+.wrapper__item-6,
+.wrapper__item-7,
+.wrapper__item-8 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper__contant {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: span 2;
+    gap: 30px;
+}
